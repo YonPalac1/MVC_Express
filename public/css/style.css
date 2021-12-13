@@ -1,10 +1,20 @@
 *, ::before, ::after {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 .mvc-top, .mvc-bottom {
     position: fixed;
     width: 100%;
     z-index: 1;
+}
+.mvc-bar {
+    background: rgba(0, 0, 0, .2);
+}
+.mvc-bar a {
+    color: #000;
+    text-decoration: none;
+
 }
 .mvc-bar {
     width: 100%;
@@ -113,6 +123,12 @@ html {
     border: none;
     display: block;
     outline: 0;
+}
+footer div i {
+    padding: 10px;
+}
+footer a {
+    color: #ccc;
 }
 
 @media only screen and (max-device-width: 1600px) {
